@@ -25,4 +25,13 @@ ITEM_PIPELINES = {
 
 FEED_FORMAT = 'json'  # Output format (JSON)
 FEED_URI = 'output.json'  # Output file path (replace with your desired path)
+``````
+
+# Run
+```bash
+scrapy crawl LegalStuff
+```
+Name of the crawler can be change in spiders/mainSpider.py
+```python
+name = "LegalStuff"
 ```
