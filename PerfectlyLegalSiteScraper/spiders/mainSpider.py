@@ -118,14 +118,10 @@ class mainSpider(scrapy.Spider):
         return search_string
 
     def get_search_info(self, search_string):
-        search_type = ""
         if search_string == None:
-            search_type = "creator"
+            return "creator"
 
-        else:
-            search_type = "string"
-
-        return search_type
+        return "string"
 
     def parse_published_at(self, published_at):
         try:
