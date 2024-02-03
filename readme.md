@@ -2,7 +2,7 @@
 It is hobby project, I wanted to download link and size of all the attachment for all the post a users posted in this specific site.
 This scraper is built with scrapy framework and stores post details and link of the post and direct download link for the attachment in a MongoDB Collection.
 
-Note:I decided to exclude name of the website became of TOS
+Note:I decided to exclude name of the website because of TOS
 
 # Settings
 
